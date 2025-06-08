@@ -4,4 +4,4 @@ conda activate huggingface-transformers
 
 [Your current point in the LLM course you are following](https://huggingface.co/learn/llm-course/chapter1/3)
 
-Currently on Transformers, what can they do??
+Currently on the sub heading Image Pipelines
