@@ -2,6 +2,6 @@ To activate the conda environment associated with this repository, run this comm
 conda activate huggingface-transformers
 
 
-[Your current point in the LLM course you are following](https://huggingface.co/learn/llm-course/chapter1/3)
+[Your current point in the LLM course you are following](https://huggingface.co/learn/llm-course/chapter1/5)
 
-Currently on Inference Providers.
+Currently on Summarization.
