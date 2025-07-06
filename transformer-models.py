@@ -13,6 +13,15 @@ def text_generation(starting_sentence_fragment : str, num_return_sequences: int,
   text_generator = transformers.pipeline("text-generation")
   return text_generator(starting_sentence_fragment, num_return_sequences=num_return_sequences, max_length=max_length, max_new_tokens=None)
 
-
 # Text Generation Tryout
-print(text_generation("Todos de los hombres del rey lo", 2, 15))
+# print(text_generation("Todos de los hombres del rey lo", 2, 15))
+
+def sentiment_analysis_comparison(list_of_starting_texts : List[str]):
+  sentiment_analysis_classifer = transformers.pipeline("sentiment-analysis")
+  return sentiment_analysis_classifer(list_of_starting_texts)
+
+
+# Sentiment Analysis Comparison Tryout
+# See behavior of sentiment analysis pipeline
+# As well as the behavior of using Tokenizer, Model individually
+print(sentiment_analysis_comparison(["I think you're really cool. But I hate the taste of broccoli!"]))
