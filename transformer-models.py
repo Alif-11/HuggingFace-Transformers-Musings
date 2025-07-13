@@ -54,4 +54,5 @@ def sentiment_analysis_comparison(list_of_starting_texts : List[str]):
 # Sentiment Analysis Comparison Tryout
 # See behavior of sentiment analysis pipeline
 # As well as the behavior of using Tokenizer, Model individually
-print(sentiment_analysis_comparison(["I think you're really cool. But I hate the taste of broccoli!", "I... want to make things riiiiiii-ight! Wanna make them the way they're supposed to be!"]))
+#print(sentiment_analysis_comparison(["I think you're really cool. But I hate the taste of broccoli!", "I... want to make things riiiiiii-ight! Wanna make them the way they're supposed to be!"]))
+
