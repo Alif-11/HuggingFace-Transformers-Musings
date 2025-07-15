@@ -2,7 +2,6 @@ To activate the conda environment associated with this repository, run this comm
 conda activate huggingface-transformers
 
 
-[Your current point in the LLM course you are following](https://huggingface.co/learn/llm-course/chapter2/6)
+[Your current point in the LLM course you are following](https://huggingface.co/learn/llm-course/chapter3/2)
 
-On the Try it out! section, currently trying to recreate the steps shown (after using
-the sentiment analysis pipeline).
+Currently on the section "Loading a dataset from the Hub"
